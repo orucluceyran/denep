@@ -1,0 +1,602 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 30px;
+
+}
+
+.logo {
+    margin-left: 80px;
+    background-color: #212020;
+    border-radius: 50%;
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links li a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.551);
+}
+
+.icons svg {
+    height: 30px;
+    margin-left: 15px;
+}
+
+.icons svg:hover {
+    height: 30px;
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 0.551);
+}
+
+.icons {
+    margin-right: 60px;
+}
+
+#demos {
+    color: rgba(0, 0, 0, 0.551);
+}
+
+
+.envato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212020;
+    padding: 10px 20px;
+
+}
+
+.logo1 img {
+    height: 18px;
+}
+
+.button button {
+    padding: 8px 18px;
+    margin-right: 30px;
+    background-color: #82b440;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    box-shadow: 0px 1px 3px 0px rgba(112, 156, 53, 0.75);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(112, 156, 53, 0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(112, 156, 53, 0.75);
+}
+
+.button button:hover {
+    background-color: #6f9c35d8;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    background-color: black;
+
+}
+
+.left p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 90px;
+
+}
+
+.right {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 50px;
+}
+
+.right li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 14px;
+
+}
+
+.right li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.right li a:hover {
+    color: #ccc;
+}
+
+
+.main {
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/fabio-alves-HNaC2lbnK_0-unsplash.jpg);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+
+.public-sans {
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+
+.text {
+    width: 25%;
+    font-size: 15px;
+    padding: 36px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(10%, -50%);
+}
+
+.button1 {
+    width: 170px;
+    height: 50px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.button1:hover {
+    width: 170px;
+    height: 50px;
+    background: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.main1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+
+.background1 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-Stealth-Backpack-a-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+.background2 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-X100V-b-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.background3 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-Elops-white-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.background4 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-Raven-a-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.background5 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-Eames-Chair-a-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.background6 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-Expedition-Down-Lite-b-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.background7 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-Chrono-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.background8 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-CP-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+.background9 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-Wayfarer-a-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.background10 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-X-T6-1-new-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.background11 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-A9-a-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.background12 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-Carter-Move-Mug-a-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.background13 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-M-1-1-new-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.background14 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-Eames-Stool-a-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.background15 {
+    width: 300px;
+    height: 400px;
+    background: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/05/product-Brevite-Backpack-a-1-uai-360x450.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.icon1,
+.icon2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 10px;
+
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.metn {
+    margin-top: 10px;
+    width: 300px;
+}
+
+.metn span {
+    display: inline-block;
+
+}
+
+.metn a {
+    text-decoration: none;
+    text-align: center;
+    color: #303133e3;
+    font-size: 13px;
+}
+
+.metn a:hover {
+    text-decoration: none;
+    color: #e82a2a;
+    font-size: 13px;
+}
+
+
+.num {
+    color: #303133e3;
+    font-size: 13px;
+    margin-top: 5px;
+    display: flex;
+
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mark img {
+    width: 100px;
+}
+
+.product {
+    display: flex;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    height: 40vh;
+    background-color: #212020;
+    color: white;
+}
+
+.signup {
+    width: 300px;
+
+}
+
+.signup p {
+    margin-top: 40px;
+}
+
+
+.input {
+    position: relative;
+    display: flex;
+    height: 2.8rem;
+    width: 100%;
+    min-width: 200px;
+    max-width: 250px;
+    border-radius: 8px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, .05);
+    margin-top: 40px;
+}
+
+.input input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(176 190 197);
+    background-color: #212020;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+
+
+.button2 {
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;
+    background-color: #3b3b3b;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    border: none;
+    transition: 0.3s;
+}
+
+.button2:hover {
+    background-color: #262626
+}
+
+
+
+.divs {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+}
+
+
+.divs1{
+    width: 130px;
+}
+
+.divs1 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.divs1 p{
+    color: white;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.divs1 a:hover{
+    color: #e82a2a;
+}
+
+.divs1 h5 {
+    margin-bottom: 40px;
+}
+
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px 20px;
+    background-color: #212020;
+    border-top: 1px solid #333;
+
+}
+
+.uncode p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 90px;
+
+}
+
+.sosialmedia {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 50px;
+}
+
+.sosialmedia a {
+    display: inline;
+    margin-left: 20px;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.sosialmedia a svg {
+    color: #fff;
+    transition: 0.3s;
+
+}
+
+.sosialmedia a img {
+    transition: 0.3s;
+    width: 15px;
+}
+
+.sosialmedia a svg:hover {
+    color: #e82a2a;
+}
